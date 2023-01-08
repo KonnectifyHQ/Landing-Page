@@ -1,0 +1,44 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('img/20221228135049_IMG_9825.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+.logo {
+    width: 120px;
+    padding: 20px;
+    cursor: pointer;
+}
+.content {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #000;
+}
+.content h1 {
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+.content h1 span {
+    color: #04FF1D;
+}
+.container form input {
+    background: transparent;
+    border: 2px solid #000;
+    outline: none;
+    margin-top: 30px;
+    padding: 10px 20px;
+    color: #000;
+}
