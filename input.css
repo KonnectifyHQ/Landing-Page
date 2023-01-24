@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@layer components{
+    .landingFont {
+        @apply font-dms text-2xl font-semibold leading-9 tracking-tight mb-5 mt-10 leading-7	
+    }
+    .imgScroll {
+        @apply w-10/12 h-4/5 p-0 m-0 rounded-md
+    }
+}

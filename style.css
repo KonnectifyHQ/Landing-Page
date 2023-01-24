@@ -1,4 +1,4 @@
-* 
+/* * 
 {
     margin: 0;
     padding: 0;
@@ -25,15 +25,15 @@
     transform: translateY(-50%);
     color: #000;
 }
-.content h1 {
+/* .content h1 {
     font-size: 64px;
     font-weight: 500;
     margin-bottom: 20px;
 
-}
-.content h1 span {
+} */
+/* .content h1 span {
     color: #04FF1D;
-}
+} */
 .container form input {
     background: transparent;
     border: 2px solid #000;
@@ -41,4 +41,4 @@
     margin-top: 30px;
     padding: 10px 20px;
     color: #000;
-}
+} */

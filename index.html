@@ -5,18 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
+    <link rel="stylesheet" href="output.css" type="text/css">
 </head>
-<body>
-    <div class="container">
-        <img src="/KT Logo/kt-logo-green.png" alt="KT Logo" class="logo">
-        
-        <div class="content">
-            <h1>We're <span>launching</span> soon</h1>
-            <form action="">
-                <p>Be the first to know when we launch!</p>
-                <input type="text" placeholder="Enter your email!">  
-            </form>
+<body class="font-dms bg-gradient-to-r from-[#FFFFFF] to-[#B5FFBD] ">
+    <div class="container flex flex-col h-screen p-8 ">
+        <!-- This is the logo at the top of the page -->
+        <div class="px-5 py-2">
+            <img src="/KT Logo/kt-logo-green.png" alt="KT Logo" class="logo" width='85' height='85'>
+        </div>
+        <!-- This is the section holding the button and the group image -->
+        <div class="content m-auto items-center">
+            <h1 class="font-dms text-3xl font-semibold leading-9 tracking-tight pb-8">Real People,<br> Real Connections.</h1>
+            <div>
+                <img src="img/KT home prop.png" alt="" class="pb-8">
+                <button class="bg-primary py-2 px-5 rounded-md text-white m-auto block">
+                    Get Started
+                </button>
+            </div>
+            <!-- This is the rest of the section contating the benefits/features of KT -->
+            <div class="m-auto text-center pb-8">
+                <h2 class="landingFont pt-2">Find People and activities that interest you...</h2>
+                <img src="img/kt-interest-demo.png" alt="">
+                <h2 class="landingFont">Want to go on trip but not alone?</h2>
+                <img src="img/kt-join-invite-demo2.png" alt="">
+                <h2 class="landingFont">New to something and could use a headstart from someone?</h2>
+                <img src="img/kt-invites-demo.png" alt="" class="pb-6">
+                <h2 class="landingFont">How Konnectify Works</h2>
+                <div class="flex gap-4 overflow-x-scroll">
+                    <img src="img/How KT Works/1.png" alt="" class="imgScroll">
+                    <img src="img/How KT Works/2.png" alt="" class="imgScroll">
+                    <img src="img/How KT Works/3.png" alt="" class="imgScroll">
+                    <img src="img/How KT Works/4.png" alt="" class="imgScroll">
+                </div>
+                <h2 class="landingFont">The person you’re looking for is also looking for you! You never know who you’ll meet.</h2>
+                <button class="bg-primary py-2 px-5 my-4 rounded-md text-white">
+                    Get Started
+                </button>
+            </div>
+
         </div>
     </div>
    
