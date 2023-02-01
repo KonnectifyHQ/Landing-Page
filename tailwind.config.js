@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        dms: ["DM Sans", "sans-serif"]
+        dms: ["DM Sans", "sans-serif"],
+        robo: ["Roboto", "sans-serif"]
       },
       colors : {
         primary : '#04FF1D',

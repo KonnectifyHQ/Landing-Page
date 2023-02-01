@@ -550,7 +550,7 @@ video {
 .landingFont {
   margin-bottom: 1.25rem;
   margin-top: 2.5rem;
-  font-family: DM Sans, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.75rem;
@@ -586,6 +586,14 @@ video {
   height: 100vh;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -611,6 +619,16 @@ video {
   background-color: rgb(4 255 29 / var(--tw-bg-opacity));
 }
 
+.bg-red-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(202 138 4 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -627,6 +645,10 @@ video {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .px-5 {
@@ -655,6 +677,10 @@ video {
   text-align: center;
 }
 
+.font-robo {
+  font-family: Roboto, sans-serif;
+}
+
 .font-dms {
   font-family: DM Sans, sans-serif;
 }
@@ -664,9 +690,9 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-semibold {
@@ -687,6 +713,27 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:bg-green-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(20 83 45 / var(--tw-bg-opacity));
+  }
+
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
