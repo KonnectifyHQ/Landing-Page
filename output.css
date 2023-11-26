@@ -606,7 +606,9 @@ video {
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(4 255 29 / var(--tw-bg-opacity));
+  /* background-color: rgb(4 255 29 / var(--tw-bg-opacity)); */
+  /* New green color */
+  background-color: #25D366;
 }
 
 .bg-red-900 {
